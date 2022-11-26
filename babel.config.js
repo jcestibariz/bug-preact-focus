@@ -1,3 +1,3 @@
 module.exports = {
-	presets: [['@babel/react', {useBuiltIns: true, runtime: 'automatic'}]],
+	presets: [['@babel/react', {useBuiltIns: true, runtime: 'automatic', importSource: 'preact'}]],
 };

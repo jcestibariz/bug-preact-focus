@@ -1,5 +1,5 @@
-import {render} from 'react-dom';
-import {useCallback, useState} from 'react';
+import {render} from 'preact';
+import {useCallback, useState} from 'preact/hooks';
 
 const App = () => {
 	const [tags, setTags] = useState(['foo', 'bar']);
