@@ -2,7 +2,7 @@ import {render} from 'preact';
 import {useCallback, useState} from 'preact/hooks';
 
 const App = () => {
-	const [tags, setTags] = useState(['foo', 'bar']);
+	const [tags, setTags] = useState(['foo', 'bar', 'baz']);
 	const [text, setText] = useState('');
 	const handleKeyDown = useCallback((event) => {
 		const value = event.target.value;
