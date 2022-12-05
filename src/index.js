@@ -28,7 +28,7 @@ const App = () => {
 	}, []);
 	return (
 		<div style={{display: 'flex', gap: '8px'}}>
-			{tags.map(tag => <span style={{background: '#eee'}}>{tag}</span>)}
+			{tags.map(tag => <span key={tag} style={{background: '#eee'}}>{tag}</span>)}
 			<input value={text} onKeyDown={handleKeyDown} onChange={handleChange} />
 		</div>
 	);
